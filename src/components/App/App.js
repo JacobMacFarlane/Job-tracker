@@ -1,4 +1,5 @@
-import './styles.css';
+// import './styles.css';
+import '/Users/thamoops/hackathon/job-search/src/styles.css'
 import React, { useState } from 'react';
 import ProgressBar from '../ProgressBar/ProgressBar';
 import ApplicationCard from '../ApplicationCard/ApplicationCard';

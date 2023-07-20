@@ -58,10 +58,10 @@ const ApplicationForm = ({ onSubmit }) => {
             </div>
             <div className="mb-4">
                 <label classname="block text-gray-700 text-sm font-bold mb-2" htmlFor="date">
-                    Company Name
+                    Date
                 </label>
                 <input 
-                type="text" 
+                type="date" 
                 name="date" 
                 id="date" 
                 value={date} 
@@ -72,7 +72,7 @@ const ApplicationForm = ({ onSubmit }) => {
             </div>
             <div className="mb-4">
                 <label classname="block text-gray-700 text-sm font-bold mb-2" htmlFor="linkedInContact">
-                    Company Name
+                    LinkedIn Connection
                 </label>
                 <input 
                 type="text" 
